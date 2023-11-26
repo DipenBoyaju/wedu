@@ -4,7 +4,7 @@ const About = () => {
       <div className="container mx-auto lg:container xl:container lg:px-40 z-10 relative">
         <div className="about-info lg:flex items-center gap-16">
           <div className="title w-270 lg:flex-1">
-            <h2 className="text-2xl lg:text-[38px] font-normal pr-16 lg:pr-0">
+            <h2 className="text-2xl lg:text-[38px] font-normal pr-16 lg:pr-0 lg:leading-[49.4px]">
               With the Right Software, Great
               <br className="lg:block hidden" /> Things Can Happen
             </h2>
