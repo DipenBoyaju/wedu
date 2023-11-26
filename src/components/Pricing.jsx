@@ -2,7 +2,7 @@ import { FaCircleCheck } from "react-icons/fa6";
 
 const Pricing = () => {
   return (
-    <section className="pricing bg-[#F6F5F5] lg:py-36 py-20">
+    <section className="pricing bg-[#F6F5F5] lg:py-20 py-20">
       <div className="container mx-auto lg:container xl:container lg:px-40 relative lg:pt-28 z-10">
         <div className="pricing-content lg:flex gap-20 items-center px-6 lg:px-0">
           <div className="pricing-details flex-1">

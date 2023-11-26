@@ -4,12 +4,29 @@ import login from "../assets/images/user.png";
 import { RxHamburgerMenu } from "react-icons/rx";
 import { IoMdClose } from "react-icons/io";
 import { useState } from "react";
+import { Link as ScrollLink, animateScroll as scroll } from "react-scroll";
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(true);
 
   const handleOpen = () => {
     setIsOpen(!isOpen);
+  };
+
+  const scrollToProduct = () => {
+    const productSection = document.getElementById("product");
+    scroll.scrollTo(productSection.offsetTop, {
+      duration: 1000,
+      smooth: "easeInOutQuart",
+    });
+  };
+
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    scroll.scrollTo(contactSection.offsetTop, {
+      duration: 1000,
+      smooth: "easeInOutQuart",
+    });
   };
 
   return (
@@ -44,7 +61,10 @@ const Navbar = () => {
                   Home
                 </li>
               </Link>
-              <li className="hover:cursor-pointer hover:text-[#6E6E6E] py-2 lg:p-0">
+              <li
+                className="hover:cursor-pointer hover:text-[#6E6E6E] py-2 lg:p-0"
+                onClick={scrollToProduct}
+              >
                 Product
               </li>
               <Link to="/plan" onClick={handleOpen}>
@@ -52,7 +72,10 @@ const Navbar = () => {
                   Pricing Plans
                 </li>
               </Link>
-              <li className="hover:cursor-pointer hover:text-[#6E6E6E] py-2 lg:p-0">
+              <li
+                className="hover:cursor-pointer hover:text-[#6E6E6E] py-2 lg:p-0"
+                onClick={scrollToContact}
+              >
                 Contact
               </li>
             </ul>

@@ -52,7 +52,7 @@ const Banner = () => {
           </div>
         </div>
       </div>
-      <div className="absolute -mt-5 lg:-mt-7 left-0 w-full h-1/2 bg-[var(--primary-color)] transform skew-y-[6deg] lg:skew-y-[3deg]  z-0"></div>
+      <div className="absolute -mt-5 lg:-mt-7 left-0 w-full h-1/3 bg-[var(--primary-color)] transform skew-y-[6deg] lg:skew-y-[3deg]  z-0"></div>
     </section>
   );
 };

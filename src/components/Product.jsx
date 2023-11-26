@@ -2,7 +2,7 @@ import products from "../assets/data/products.js";
 
 const Product = () => {
   return (
-    <section className="product lg:py-[6rem] py-16 px-6 lg:px-0">
+    <section className="product lg:py-[6rem] py-16 px-6 lg:px-0" id="product">
       <div className="container mx-auto lg:container xl:container lg:px-40">
         <div className="product-title">
           <div className="title">
