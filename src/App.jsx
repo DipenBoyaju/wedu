@@ -7,8 +7,9 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <Navbar />
+      
       <Routes>
+        <Navbar />
         <Route path="/" element={<Home />} />
         <Route index element={<Home />} />
         <Route path="/plan" element={<Plan />} />
