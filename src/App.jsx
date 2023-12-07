@@ -12,7 +12,7 @@ const App = () => {
         <Route index element={<Home />} />
         <Route path="/plan" element={<Plan />} />
       </Routes>
-      <Footer />
+{/*       <Footer /> */}
     </>
   );
 };
