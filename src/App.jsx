@@ -7,12 +7,13 @@ import { Routes, Route } from "react-router-dom";
 const App = () => {
   return (
     <>
-      <Navbar />
+{/*       <Navbar /> */}
       <Routes>
         <Route index element={<Home />} />
+        <Route path="/" element={<Home />} />
         <Route path="/plan" element={<Plan />} />
       </Routes>
-      <Footer />
+{/*       <Footer /> */}
     </>
   );
 };
