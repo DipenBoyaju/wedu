@@ -2,10 +2,13 @@ import PlanCard from "../components/PlanCard";
 import Title from "../components/Title";
 import c1 from "../assets/images/c1.png";
 import c4 from "../assets/images/c4.png";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 
 const Plan = () => {
   return (
     <>
+      <Navbar />
       <div className="plan-list">
         <div className="">
           <Title
@@ -45,6 +48,7 @@ const Plan = () => {
           </div>
         </div>
       </div>
+      <Footer />
     </>
   );
 };
