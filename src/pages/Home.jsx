@@ -6,10 +6,13 @@ import Pricing from "../components/Pricing";
 import Product from "../components/Product";
 import Trust from "../components/Trust";
 import Workflow from "../components/Workflow";
+import Footer from "./components/Footer";
+import Navbar from "./components/Navbar";
 
 const Home = () => {
   return (
     <div>
+      <Navbar />
       <Banner />
       <About />
       <Product />
@@ -18,6 +21,7 @@ const Home = () => {
       <Client />
       <Pricing />
       <Workflow />
+      <Footer />
     </div>
   );
 };
